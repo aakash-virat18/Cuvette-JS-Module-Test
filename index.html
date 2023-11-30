@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dangrek&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="game">
+      <div class="scorecard">
+        <div class="title">
+          <ul>
+            <li>ROCK</li>
+            <li>PAPER</li>
+            <li>SCISSORS</li>
+          </ul>
+        </div>
+        <div class="scores">
+          <div class="computer-score">
+            <span>COMPUTER</span>
+            <span>SCORE</span>
+            <span class="cscore">0</span>
+          </div>
+          <div class="user-score">
+            <span>YOUR</span>
+            <span>SCORE</span>
+            <span class="uscore">0</span>
+          </div>
+        </div>
+      </div>
+      <div class="options">
+        <div class="triangle">
+          <div class="rod-1"></div>
+          <div class="rod-2"></div>
+          <div class="rod-3"></div>
+        </div>
+        <div class="row1">
+          <div class="stone">
+            <img src="img/stone.svg" alt="" />
+          </div>
+          <div class="scissor">
+            <img src="img/scissor.svg" alt="" />
+          </div>
+        </div>
+        <div class="row2">
+          <div class="paper">
+            <img src="img/paper.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="result">
+        <h4 class="user-pick-heading margin0-auto">YOU PICKED</h4>
+        <h4 class="computer-pick-heading margin0-auto">PC PICKED</h4>
+        <div class="outer-circle-1">
+          <div class="mid-circle-1">
+            <div class="inner-circle-1">
+              <div class="stone margin0-auto you-picked">
+                <img src="img/stone.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mid-section">
+          <h2>WIN</h2>
+          <h3>AGAINST PC</h3>
+          <button class="play-again">PLAY AGAIN</button>
+        </div>
+        <div class="outer-circle-2">
+          <div class="mid-circle-2">
+            <div class="inner-circle-2">
+              <div class="stone margin0-auto computer-picked">
+                <img src="img/paper.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rules-section">
+        <button class="close">X</button>
+        <div class="rules">
+          <h3>Game Rules</h3>
+          <ul>
+            <li>
+              Rock beats scissors, scissors beat paper, and paper beats rock.
+            </li>
+            <li>
+              Agree ahead of time whether you’ll count off “rock, paper,
+              scissors, shoot” or just “rock, paper, scissors.”
+            </li>
+            <li>
+              Use rock, paper, scissors to settle minor decisions or simply play
+              to pass the time
+            </li>
+            <li>
+              If both players lay down the same hand, each player lays down
+              another hand
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="toggle">
+        <a class="go-next" href="hurray.html">NEXT</a>
+        <button class="show-rules">RULES</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
