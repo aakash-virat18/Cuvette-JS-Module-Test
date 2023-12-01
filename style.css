@@ -81,6 +81,7 @@ body {
   background-color: white;
   border: 14px solid #0074b6;
   z-index: 1;
+  box-shadow: -1px 1px 11px 0px #00000059;
 }
 
 .scissor {
@@ -91,6 +92,7 @@ body {
   background-color: white;
   border: 14px solid #bd00ff;
   z-index: 1;
+  box-shadow: -1px 1px 11px 0px #00000059;
 }
 
 .row2 {
@@ -108,6 +110,7 @@ body {
   cursor: pointer;
   border: 14px solid #ffa943;
   z-index: 1;
+  box-shadow: -1px 1px 11px 0px #00000059;
 }
 
 .stone img {
@@ -139,7 +142,7 @@ body {
 .rules-section {
   position: absolute;
   right: 2rem;
-  bottom: 8rem;
+  top: 30rem;
   background-color: #004429;
   padding: 18px;
   border: 4px solid white;
@@ -226,7 +229,7 @@ body {
 }
 
 .outer-circle-1 {
-  background-color: #6db866;
+  background-color: #64b44c;
   height: 26rem;
   width: 26rem;
   display: flex;
@@ -242,7 +245,7 @@ body {
 }
 
 .mid-circle-1 {
-  background-color: #2e9a25;
+  background-color: #2a9a27;
   height: 22rem;
   width: 22rem;
   border-radius: 50%;
@@ -252,7 +255,7 @@ body {
 }
 
 .inner-circle-1 {
-  background-color: #206c1a;
+  background-color: #32a52e;
   height: 18rem;
   width: 18rem;
   border-radius: 50%;
@@ -261,7 +264,7 @@ body {
 }
 
 .outer-circle-2 {
-  background-color: #6db866;
+  background-color: #64b44c;
   grid-column: 3 / 4;
   height: 26rem;
   width: 26rem;
@@ -277,14 +280,14 @@ body {
   height: 22rem;
   width: 22rem;
   border-radius: 50%;
-  background-color: #2e9a25;
+  background-color: #2a9a27;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .inner-circle-2 {
-  background-color: #206c1a;
+  background-color: #32a52e;
   height: 18rem;
   width: 18rem;
   border-radius: 50%;
@@ -335,7 +338,7 @@ body {
 
 .toggle {
   position: absolute;
-  bottom: 2rem;
+  top: 50rem;
   right: 0rem;
   display: flex;
   flex-direction: row-reverse;
@@ -391,6 +394,7 @@ body {
   position: absolute;
   left: 44%;
   top: 53%;
+  opacity: 55%;
 }
 
 .rod-2 {
@@ -401,6 +405,7 @@ body {
   transform: rotateZ(51deg);
   left: 41%;
   top: 70%;
+  opacity: 55%;
 }
 
 .rod-3 {
@@ -411,4 +416,5 @@ body {
   transform: rotateZ(-51deg);
   left: 49%;
   top: 69%;
+  opacity: 55%;
 }
